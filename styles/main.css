@@ -1,0 +1,59 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #000;
+  padding: 2.5em;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 4.3em;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+ul li a.active {
+  font-weight: bold;
+}
+
+/* addd interaction here */
+ul li a:hover {
+  color: #9ebb94;
+}
