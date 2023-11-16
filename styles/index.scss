@@ -5,6 +5,12 @@ $secondary-clr: #fff;
 $primary-bg: #000;
 $secondary-bg: #aec19f;
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 
 html {
     font-size: 62.5%;
@@ -92,6 +98,36 @@ html {
   /* addd interaction here */
   ul li a:hover {
     text-decoration: underline;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+  // Footer
+  footer {
+    background-color: $primary-bg;
+    color: $secondary-clr;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .socials img {
+    height: 2rem;
+  }
+  .socials {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+
   }
   
   @media screen and (min-width: 600px) {
