@@ -1,3 +1,77 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
 footer {
   background-color: #000;
   color: #fff;
@@ -153,4 +227,70 @@ body {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+body {
+  color: #fff;
+}
+
+h1 {
+  background-color: #000;
+  color: #aec19f;
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin: 1em;
+}
+
+main {
+  padding: 5em;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+
+.article-img {
+  height: 20rem;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 1em;
+}
+
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .grid {
+    display: grid;
+    gap: 2em;
+    grid-template-areas: "a a" "b c" "d e";
+  }
+  section:nth-of-type(1) {
+    grid-area: a;
+  }
+}
+@media screen and (min-width: 576px) {
+  .grid {
+    display: grid;
+    gap: 2em;
+    grid-template-area: "a a" "b c" "d e";
+  }
+  section:nth-of-type(1) {
+    grid-area: a;
+  }
 }/*# sourceMappingURL=blog.css.map */

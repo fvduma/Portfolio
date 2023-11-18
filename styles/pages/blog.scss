@@ -1,1 +1,84 @@
 @import "../../index";
+
+body {
+    color: $secondary-clr;
+}
+
+h1 {
+    background-color: $primary-bg;
+    color: $primary-clr;
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin: 1em;
+}
+
+main {
+    padding: 5em;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+.article-img {
+    height: 20rem;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+}
+
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 1rem;
+    }
+
+    .container {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+    }
+
+
+    @media screen and (min-width: $sm) {
+        .grid {
+            display: grid;
+            gap: 2em;
+            grid-template-areas:
+              "a a"
+              "b c"
+              "d e";
+          }
+
+          section:nth-of-type(1) {
+            grid-area: a;
+
+          }
+        }
+
+
+        @media screen and (min-width: $sm) {
+            .grid {
+                display: grid;
+                gap: 2em;
+                grid-template-area:
+                  "a a"
+                  "b c"
+                  "d e";
+              }
+    
+              section:nth-of-type(1) {
+                grid-area: a;
+        
+    
+              }
+            }
+
+    
+    

@@ -1,1 +1,99 @@
 @import "../../index";
+
+@mixin styling-input {
+    background-color: #FFFFFF30;
+    border-radius: 10px;
+    width: 70%;
+    height:4rem;
+    color: $secondary-clr;
+    font-size: 1.6rem;
+    padding: 0 .5em;
+  }
+  
+
+
+main {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    color: $secondary-clr;
+}
+
+img {
+    height: 5rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2em;
+}
+
+h1 span {
+    color: $primary-clr;
+}
+
+.left-col {
+    display: flex;
+    gap: 3em;
+}
+
+.left-col p {
+    display: none;
+}
+
+input[type="text"],input[type="email"] {
+@include styling-input();
+}
+
+textarea {
+    @include styling-input();
+    height: 10rem;
+    }
+
+input, textarea {
+    margin:1.5em auto;
+}
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: $sm) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 7em;
+    }
+    .left-col p {
+        display: inline-block;
+        font-size: 2rem;
+        overflow-wrap: normal;
+    }
+    .left-col {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+}
+
+
+@media screen and (min-width: $md) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10em;
+    }
+
+
+    input[type="text"],input[type="email"], textarea{
+        width: 100%;
+    }
+
+}
+
+
+
+
