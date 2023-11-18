@@ -1,0 +1,8 @@
+@import "./styles/defaults/colors";
+@mixin background() {
+    background-color: $primary-bg;
+    color: $secondary-clr;
+    text-align: center;
+    padding: 2.5em;
+  }
+  

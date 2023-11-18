@@ -1,36 +1,17 @@
-$primary-clr: #aec19f;
-$secondary-clr: #fff;
-
-
-$primary-bg: #000;
-$secondary-bg: #aec19f;
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+@import "./styles/defaults/colors";
+@import "./styles/defaults/breakpoints";
+@import "./utils";
+@mixin background() {
+  background-color: $primary-bg;
+  color: $secondary-clr;
+  text-align: center;
+  padding: 2.5em;
 }
 
 
-html {
-    font-size: 62.5%;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-  }
-  
-  header {
-    background-color: $primary-bg;
-    padding: 2.5em;
-  }
-  
-  .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
+ 
+header { @include background();}
+
   nav {
     position: fixed;
     right: -100%;
@@ -100,37 +81,7 @@ html {
     text-decoration: underline;
   }
 
-  body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-
-
-
-
-
-  // Footer
-  footer {
-    background-color: $primary-bg;
-    color: $secondary-clr;
-    text-align: center;
-    padding: 1em;
-  }
-
-  .socials img {
-    height: 2rem;
-  }
-  .socials {
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-
-  }
-  
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: $sm) {
     .menu-btn,
     .close-btn {
       display: none;

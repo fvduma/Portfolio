@@ -1,0 +1,16 @@
+@import "./styles/defaults/colors";
+@import "./utils";
+ 
+ footer { @include background();}
+
+  .socials img {
+    height: 2rem;
+  }
+  .socials {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 1em;
+
+  }
+  

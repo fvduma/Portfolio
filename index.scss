@@ -1,0 +1,28 @@
+@import "./styles/defaults/colors";
+@import "./styles/defaults/breakpoints";
+@import "/styles/components/header";
+@import "/styles/components/footer";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
