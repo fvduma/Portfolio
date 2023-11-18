@@ -1,0 +1,156 @@
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2.5em;
+}
+
+.socials img {
+  height: 2rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2.5em;
+}
+
+nav {
+  position: fixed;
+  right: -100%;
+  top: 0;
+  width: 33%;
+  background-color: #aec19f;
+  height: 100vh;
+  padding: 4.6em;
+  transition: right 0.5s ease-in-out;
+}
+
+.close-btn {
+  cursor: pointer;
+  width: 3rem;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 6.6rem;
+}
+
+.menu-btn {
+  width: 4rem;
+  cursor: pointer;
+}
+
+.open {
+  right: 0%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4.3em;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+ul li a.active {
+  font-weight: bold;
+}
+
+/* addd interaction here */
+ul li a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 576px) {
+  .menu-btn,
+  .close-btn {
+    display: none;
+  }
+  nav {
+    position: unset;
+    height: auto;
+    background: none;
+    padding: 0;
+    width: auto;
+  }
+  nav ul {
+    flex-direction: row;
+  }
+}
+.btn {
+  border: 0;
+  border-radius: 0.25rem;
+  background: #9EBB94;
+  color: white;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000;
+  color: #aec19f;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=skills.css.map */

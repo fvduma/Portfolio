@@ -129,3 +129,6 @@ I found it interesting that you had to use &copy; instead of pasting a symbol di
   <p>&copy; Faduma Hashi. All rights reserved</p>
 </footer>
 ```
+
+<!-- struggled with linking pages, broke it.
+Took awile however I realised that the output tells you exactly where the error is. -->

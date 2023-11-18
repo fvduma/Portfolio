@@ -1,4 +1,4 @@
-@import "./styles/defaults/colors";
+@import "../defaults/colors";
 @mixin background() {
     background-color: $primary-bg;
     color: $secondary-clr;
