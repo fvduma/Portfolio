@@ -1,33 +1,120 @@
-# Portfolio (put emoji here)
+# Faduma Hashi T1A2 Portfolio Assignment [Coder Academy]
 
-A simple responsive portfolio built using HTML CSS/SASS and minimal Javascript
-
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Designs](#wireframes)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-## Overview
-
-### Screenshot
-
-![](./screenshot.jpg)
+Hi,
+Welcome to my portfolio.
+The purpose of this website is to showcase my abilities to **future employers**.
+<br>
+A lot of care has been put into this from the design to trying to get the code as accurate to the wireframes as possible.  
+It's a simple responsive website that will be continously worked on as I get more experience under my belt.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [GitHub Repo](https://github.com/fvduma/Portfolio)
+- [Live Site](https://melodic-brigadeiros-761300.netlify.app/)
 
-## My process
+## Table of contents
+
+- [Published Portfolio Website](https://melodic-brigadeiros-761300.netlify.app/)
+- [Github Repo](https://github.com/fvduma/Portfolio)
+- [Presentation]()
+- [Functionality & Features](#functionality--features)
+  - [Home](#home-page)
+  - [About](#about-page)
+  - [Skills](skills-page)
+  - [Blog](#blog-page)
+  - [Contact](#contact-page)
+- [Site Map](#site-map)
+- [Wireframes](#wireframes)
+  - [Low Fidelity](#low-fidelity)
+  - [High-Fidelity](#high-fidelity)
+- [Screenshots](#screenshot)
+- [Built with](#built-with)
+- [Continued development](#continued-development)
+
+## Functionality & Features
+
+### Home Page
+
+The Home Page is the landing page and has a nice simple headline of who I am and what I do and:
+
+- Showcases my projects through my call to action (button)
+- Showcases my resume
+- It contains a clear and visible navigation which allows my viewers to clearly find what they're looking for
+- The Navigation also uses minimal javascript to transform into a hamburger menu for mobile users
+- The Footer allows people to see my social media presence on work-related websites
+
+### About Page
+
+My About Page showcases my motivation and interest in coding and web developement.  
+It also advises of my previous work history and contains a hero image of a coding workspace.
+
+### Skills Page
+
+The Skills Page consists of a few graphical components. <br>
+
+1. Icons of the tech stacks I have used and have experience with
+2. Card Components with Image of my Projects
+3. Icons that link to the repo and live site of each Project
+4. Footer which has social media links attached to each icon.
+
+### Blog Page
+
+The Blog Page contains links imbedded into the each image which will take you directly to the recipe.
+It showcases the author with their profile picture and the time that the article was created.
+
+Each Blog article contains
+
+- Link to recipe
+- Image of Recipe
+- Author
+- Date Recipe Created
+- Title of Recope
+
+### Contact Page
+
+The Contact Page contains a simple form with the inputs of:
+
+- Name
+- Email (Validated)
+- Text Area (for Message)
+- Submit
+
+### Site Map
+
+![Site Map of Website](./docs/website-map.png)
+
+- Navigation - From any page you can access the HomePage, Contact, Blog, About, Skills
+- Footer - In the future you have access to external social links and can acess my LinkedIn, Github & Twitter
+
+![Code Directory](./docs/code-directory.png)
+
+This is the directory of my code.  
+From the root file, I have my index.html, and readme.  
+Styles contain all my stylesheets and in future I will try to define consistent font-families and styles and add it to another stylesheet.
+
+### Wireframes
+
+## Low Fidelity
+
+![](./docs/lowfi.png)
+
+## High Fidelity
+
+![](./docs/hifi.png)
+
+## Screenshot
+
+### Mobile
+
+![](./docs/mobile.png)
+
+### Tablet
+
+![](./docs/tablet.png)
+
+### Desktop
+
+![](./docs/Desktop.png)
 
 ### Built with
 
@@ -38,97 +125,31 @@ A simple responsive portfolio built using HTML CSS/SASS and minimal Javascript
 - Mobile-first workflow
 - SASS
 - Javascript
-- Might use bootstrap
-- [SASS](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- Depoloyed with Netlify
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I would like to practice with SASS more as I felt I struggled with the linking of each page and partial.  
+It felt like each time I needed to link something I broke something, but I do feel more confident after this project.
+I also would like to use the nesting feature more as it makes the code more succint however I kept forgetting to utilise it in this project.
+Here is a mini code snippet of how I used SCSS
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
-
-General project documentation is to be compiled as a single markdown file named README.md. This file should contain,
-
-A link (URL) to your published portfolio website
-A link to your GitHub repo
-A link to your presentation video
-Description of your portfolio website, including,
-Purpose
-Functionality / features
-Sitemap
-Screenshots
-Target audience
-Tech stack (e.g. html, css, deployment platform, etc)
-
-### Footer
-
-Footer has social media links, author and copyright information.
-I found it interesting that you had to use &copy; instead of pasting a symbol directly into the code however the reasoning behind it makes sense.
-
-```html
-<footer>
-  <div class="socials">
-    <a href="https://github.com/fvduma" target="_blank"
-      ><img src="assets/github.svg" alt="github" class="github"
-    /></a>
-    <a
-      href="https://www.linkedin.com/in/fadumah/?originalSubdomain=au"
-      target="_blank"
-      ><img src="assets/linkedin.svg" alt="linkedin" class="linkedin"
-    /></a>
-    <a href="https://www.twitter.com" target="_blank"
-      ><img src="assets/twitter.svg" alt="twitter" class="twitter"
-    /></a>
-    <!-- Don't have twitter but felt empty with only 2 links :D -->
-  </div>
-  <p>&copy; Faduma Hashi. All rights reserved</p>
-</footer>
+```css
+@import "styles/defaults/reset";
+@import "styles/defaults/breakpoints";
+@import "styles/defaults/colors";
+@import "styles/components/footer";
+@import "styles/components/header";
+@import "styles/defaults/buttons";
 ```
 
-<!-- struggled with linking pages, broke it.
-Took awile however I realised that the output tells you exactly where the error is. -->
+I did also use some javascript which I am proud of
+
+```js
+<script>
+  document.querySelector('.menu-btn').addEventListener('click', () =>{" "}
+  {document.querySelector("nav").classList.toggle("open")})
+  document.querySelector('.close-btn').addEventListener('click', () =>{" "}
+  {document.querySelector("nav").classList.toggle("open")})
+</script>
+```
