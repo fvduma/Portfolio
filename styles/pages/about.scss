@@ -1,1 +1,57 @@
 @import "../../index";
+
+body {
+    padding: 2.5rem;
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+main > img {
+    max-height: 30rem;
+    border-radius: 3rem;
+    margin-bottom: 2em;
+    aspect-ratio: 1/1;
+}
+
+h1 {
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+main p {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: .5em;
+    color: $secondary-clr;
+}
+
+
+@media screen and (min-width: $sm) {
+
+    main {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3em;
+        font-size: 2rem;
+        font-weight: light;
+        text-align: left;
+        padding: 2.5em;
+
+        img {
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    h1 {
+       text-align: center;
+    }
+
+
+}
+
