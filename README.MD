@@ -16,7 +16,7 @@ It's a simple responsive website that will be continously worked on as I get mor
 
 - [Published Portfolio Website](https://melodic-brigadeiros-761300.netlify.app/)
 - [Github Repo](https://github.com/fvduma/Portfolio)
-- [Presentation]()
+- [Presentation](https://vimeo.com/886094378?share=copy)
 - [Functionality & Features](#functionality--features)
   - [Home](#home-page)
   - [About](#about-page)
